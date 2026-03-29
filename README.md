@@ -1,7 +1,7 @@
 # Actividad_1
 ## Actividad 1 de la clase Ing. Devops
 
-### l encargo debe incluir los siguientes apartados:
+### El encargo debe incluir los siguientes apartados:
 1. Crean un repositorio Git en GitHub con las siguientes ramas: main, develop, feature/<nombre> y hotfix/<nombre>. (IE5)
 2. Implementan GitFlow o trunk-based development, justificando su elección en el README del repositorio. (IE1)
 3. Simulan un desarrollo colaborativo integrando al menos 2 cambios tipo feature y 1 tipo hotfix mediante pull requests. (IE2)
