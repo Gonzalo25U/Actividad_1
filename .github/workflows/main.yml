@@ -1,0 +1,23 @@
+name: guardian Main
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  verificacion:
+    runs-on: ubuntu-latest
+    steps:
+      - name: mostrar Dominio
+        run: echo ${{vars.DOM}}
+    
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Saludo de Sistema
+        run: |
+          echo "¡Hola! Estoy revisando los cambios que van hacia la rama principal."
+          echo "Ejecutado por: ${{ github.actor }}"
+          echo "Estado: Todo despejado."
